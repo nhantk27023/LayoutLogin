@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="420dp"
+        android:layout_height="753dp"
+        app:srcCompat="@drawable/_deab62e7d9efaa4677aef77bec962f3"
+      />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Võ Thành Nhân-21115053120230"
+        android:textAlignment="center"
+        ></TextView>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_marginTop="650dp"
+        android:layout_width="417dp"
+        android:layout_height="58dp"
+        android:text="Click Here!!!"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/chunk"
+
+        android:background="@color/white"
+        app:backgroundTint="@null" />
+</FrameLayout>
