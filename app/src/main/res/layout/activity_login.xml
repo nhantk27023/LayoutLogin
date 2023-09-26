@@ -8,7 +8,6 @@
     android:background="@color/black"
     >
 
-
     <ImageView
         android:id="@+id/logoimage"
         android:layout_width="412dp"
@@ -25,17 +24,19 @@
         android:textColor="@color/white"
         android:textSize="50sp"
         ></TextView>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/chunk"
         android:text="User"
         android:textColor="@color/white"
         android:textSize="20dp"
-        android:fontFamily="@font/chunk"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="420dp"
 
-    ></TextView>
+        ></TextView>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,6 +80,17 @@
         android:layout_marginTop="600dp"
         >
     </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp?"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="320dp"
+        android:textSize="15dp"
+        android:onClick="signup"
+        >
+
+    </TextView>
 
 
 </FrameLayout>
